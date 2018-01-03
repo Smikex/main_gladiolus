@@ -10,14 +10,64 @@ font-style: normal;
 }
 header{
   background-image: url(img/bg_header.jpg);
-  height: 80vh;
+  /* height: 70vh; */
   background-position: left, top;
   background-size: cover;
 }
-
+nav{
+  padding-top: 3% !important;
+}
 .nav-link{
-  padding-top: 30px;
 font-family: BloggerSans;
 font-size: 18px;
 color: #ffffff;
+}
+
+.services{
+  background-color: #2a2c36;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.services h2{
+  padding-top: 30px;
+  color: white;
+  font-family: Arial;
+font-size: 24px;
+}
+.services p{
+  color: #575a67;
+    font-size: 14px;
+     font-family: Arial;
+}
+.stars h2{
+  padding-top: 5%;
+  text-align: center;
+  font-family: BloggerSans;
+  font-size: 36px;
+}
+
+footer{
+  background-color: #373a49;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: BloggerSans;
+font-size: 18px;
+}
+.animation{
+  margin-top: -87px;
+}
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 10s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
