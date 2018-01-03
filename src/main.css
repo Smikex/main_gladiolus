@@ -1,0 +1,23 @@
+@font-face{
+font-family: 'BloggerSans';
+src: url('fonts/BloggerSans.eot');
+src: url('fonts/BloggerSans.eot?iefix') format('eot'),
+url('fonts/BloggerSans.woff') format('woff'),
+url('fonts/BloggerSans.ttf') format('truetype'),
+url('fonts/BloggerSans.svg#webfont') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+header{
+  background-image: url(img/bg_header.jpg);
+  height: 80vh;
+  background-position: left, top;
+  background-size: cover;
+}
+
+.nav-link{
+  padding-top: 30px;
+font-family: BloggerSans;
+font-size: 18px;
+color: #ffffff;
+}
