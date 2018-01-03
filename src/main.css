@@ -13,6 +13,8 @@ header{
   /* height: 70vh; */
   background-position: left, top;
   background-size: cover;
+  background-position-y: -5px;
+  background-position-x: -3px;
 }
 nav{
   padding-top: 3% !important;
@@ -55,12 +57,12 @@ footer{
 font-size: 18px;
 }
 .animation{
-  margin-top: -87px;
+margin-top: -85px
 }
-path {
+path, line, polyline {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 10s linear alternate infinite;
+  animation: dash 8s linear alternate infinite;
 }
 
 @keyframes dash {
