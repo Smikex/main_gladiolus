@@ -8,42 +8,51 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="src/main.css">
+  <link rel="stylesheet" href="src/prices.css">
+    <link rel="stylesheet" href="src/services-style.css">
   <title>Hello, world!</title>
 </head>
 
 <body>
   <header>
-    <div class="container">
+      <div class="container">
       <nav class="navbar navbar-expand-lg ">
         <a class="navbar-brand" href="#">Gladiolus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
+     <span class="navbar-toggler-icon">MENU</span>
    </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="index.html">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Услуги</a>
+              <a class="nav-link" href="services.html">Услуги</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Цены</a>
+              <a class="nav-link" href="prices.html">Цены</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Портфолио</a>
+              <a class="nav-link" href="portfolio.html">Портфолио</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Статьи</a>
+              <a class="nav-link" href="posts.html">Статьи</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+            <li class="nav-item lang_link d-none d-md-block d-lg-block">
+              <a class="nav-link" href="#"><img src="src/img/icon_lang.png" alt=""></a>
+            </li>
+            <li class="nav-item d-none d-md-block d-lg-block">
+              <a class="nav-link" href="#">ru<br>ua<br>de</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    <svg class="animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1980 1080" enable-background="new 0 0 1980 1080" xml:space="preserve">
+    <div class="header_img">
+    <svg class="animation d-none d-lg-block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1980 1080" enable-background="new 0 0 1980 1080" xml:space="preserve">
 
        <path display="inline" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
        M599.64,468.825v445.5c0,0-1.5,16.5,7,25.5s22.5,7.5,22.5,7.5h95"/>
@@ -100,8 +109,8 @@
 
        <line display="inline" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="525.64" y1="670.575" x2="525.64" y2="687.575"/>
    </g>
-
    </svg>
+  </div>
   </header>
   <section class="services">
     <div class="container">
@@ -111,14 +120,14 @@
         </div>
         <div class="col-md-4">
           <h2>Сайт - визитка</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
         </div>
         <div class="col-md-1">
           <img src="src/img/icon_2.png" alt="">
         </div>
         <div class="col-md-4">
           <h2>landing page</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 
         </div>
         <div class="w-100"></div>
@@ -127,7 +136,7 @@
         </div>
         <div class="col-md-4">
           <h2>Корпоративный сайт</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 
         </div>
         <div class="col-md-1">
@@ -135,7 +144,7 @@
         </div>
         <div class="col-md-4 ">
           <h2>Интернет магазин</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
         </div>
       </div>
     </div>
@@ -143,59 +152,87 @@
   <section class="our_works">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6  our_works_col1">
-<div class="our_works_text">
-  <h2>Лакей в Провинции</h2>
-  <p>подробнее</p>
-</div>
-
-
+        <div class="col-12 col-md-6 our_works_col1">
+          <img class="img-fluid" src="src\img\portfolio_1.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
-        <div class="col our_works_col2">
-          <img class="img-fluid" src="src\img\portfolio_2.jpg" alt="">
+        <div class="col-12 col-md our_works_col2">
+          <img class="img-fluid d-none d-md-block" src="src\img\portfolio_2.jpg" alt="">
+          <img class="img-fluid d-md-none" src="src\img\portfolio_2_.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
-        <div class="col our_works_col3">
-          <img class="img-fluid" src="src\img\portfolio_3.jpg" alt="">
+        <div class="col-12 col-md our_works_col3">
+          <img class="img-fluid d-none d-md-block" src="src\img\portfolio_3.jpg" alt="">
+          <img class="img-fluid d-md-none " src="src\img\portfolio_3_.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col our_works_col1">
-          <img class="img-fluid" src="src\img\portfolio_2.jpg" alt="">
+        <div class="col-12 col-md our_works_col1">
+          <img class="img-fluid d-none d-md-block" src="src\img\portfolio_2.jpg" alt="">
+          <img class="img-fluid d-md-none" src="src\img\portfolio_2_.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
-        <div class="col our_works_col2">
-          <img class="img-fluid" src="src\img\portfolio_3.jpg" alt="">
+        <div class="col-12 col-md our_works_col2">
+          <img class="img-fluid d-none d-md-block" src="src\img\portfolio_3.jpg" alt="">
+          <img class="img-fluid d-md-none" src="src\img\portfolio_3_.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
-        <div class="col-6 our_works_col3">
+        <div class="col-12 col-md-6 our_works_col3">
           <img class="img-fluid" src="src\img\portfolio_1.jpg" alt="">
+          <div class="our_works_text">
+            <h2>Лакей в Провинции</h2>
+            <p>подробнее</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section class="stars container">
     <h2>Звездной величины</h2>
+    <div class="dot d-lg-none d-md-none ">
+    </div>
     <div>
       <h3>Мы указывали</h3>
     </div>
     <div class="row">
-      <svg class=" col-3 align-self-center" version="1.1" id="Слой_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="217.49px" height="51.09px" viewBox="0 0 217.49 51.09" enable-background="new 0 0 217.49 51.09"
+      <svg class=" col-3  align-self-center d-none d-lg-block" version="1.1" id="Слой_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="217.49px" height="51.09px" viewBox="0 0 217.49 51.09" enable-background="new 0 0 217.49 51.09"
         xml:space="preserve">
       <circle fill="#575A67" cx="23.486" cy="27.675" r="8.916"/>
       <line fill="none" stroke="#575A67" stroke-width="2.5" stroke-miterlimit="10" x1="37.237" y1="27.675" x2="204.38" y2="27.675"/>
       </svg>
-      <div class="first_star col-6 justify-content-center">
+      <div class="first_star col-12 col-md-6  justify-content-center">
         <p>Только принадлежащие дискретными источниками радиоизлучения. Вспышек новых и радиообъектов выдвинута гипотеза о тщетности попыток отождествления оптических объектов. Мы указывали выше, динамическими соображениями силу закона вина. Оптическое излучение
           будет понятно больших расстояниях от.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-2">
-
+      <div class="container">
+        <div class="dot d-lg-none d-md-none ">
+        </div>
       </div>
-      <div class="col-3 col-ml-auto align-self-center">
+      <div class="col-2">
+      </div>
+      <div class="col-md-3 col-12 col-ml-auto align-self-center">
         <h3>Это внегалактические объекты</h3>
       </div>
       <div class="col-3">
-        <svg version="1.1" id="Слой_2__x28_копия_x29_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="134.993px" height="184.491px" viewBox="0 0 134.993 184.491" enable-background="new 0 0 134.993 184.491"
+        <svg version="1.1" class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="134.993px" height="184.491px" viewBox="0 0 134.993 184.491" enable-background="new 0 0 134.993 184.491"
           xml:space="preserve">
         <circle fill="#575A67" cx="18.986" cy="92.08" r="8.916"/>
         <line fill="none" stroke="#575A67" stroke-width="2.5" stroke-miterlimit="10" x1="32.737" y1="92.08" x2="123.872" y2="92.08"/>
@@ -206,16 +243,20 @@
     <div class="row">
       <div class="col-4">
       </div>
-      <div class="col-5">
+      <div class="col-12 col-md-5 stars_2">
       Внегалактических объектов были известны только галактики и следовало ожидать являются. Излучения меньше толщины галактики, так называемых радиозвездах галактики.
       </div>
     </div>
     <div class="row">
+      <div class="container">
+        <div class="dot d-lg-none d-md-none ">
+        </div>
+      </div>
       <div class="col-4">
       </div>
-      <div class="col justify-content-center third_star">
+      <div class="col-12 col-md justify-content-center third_star">
         <h3>Излучения меньше</h3>
-        <svg version="1.1" id="Слой_2__x28_копия2_x29_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="475.476px" height="272.987px" viewBox="0 0 475.476 272.987" enable-background="new 0 0 475.476 272.987"
+        <svg version="1.1" class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="475.476px" height="272.987px" viewBox="0 0 475.476 272.987" enable-background="new 0 0 475.476 272.987"
           xml:space="preserve">
         <circle fill="#575A67" cx="115.938" cy="95.08" r="8.915"/>
         <line fill="none" stroke="#575A67" stroke-width="2.5" stroke-miterlimit="10" x1="102.188" y1="95.08" x2="11.052" y2="95.08"/>
@@ -225,7 +266,7 @@
         	218.228,95.08 "/>
         </svg>
       </div>
-      <div class="col align-self-center">
+      <div class="col align-self-center stars_2">
           <p>Вспышек новых и радиообъектов выдвинута гипотеза о тщетности попыток отождествления оптических объектов.</p>
       </div>
 
@@ -235,14 +276,14 @@
   <div class="col-1">
 
   </div>
-  <div class="col-4 four_star">
+  <div class="col-md-4 col-12 four_star stars_2">
     <p> Это внегалактические объекты, тогда отсутствие концентрации этих. Узкой полосе показывает сильную концентрацию к ее плоскости. Наблюдениях в этом случае поглощение. Группа, более или менее равномерно. Объекты, например звезды первой труппы.</p>
 
   </div>
   <div class="col-3">
 
   </div>
-  <div class="col-4 four_star_2">
+  <div class="col-md-4 col-12 four_star_2 stars_2">
     <p>Вспышек новых и радиообъектов выдвинута гипотеза о тщетности попыток отождествления оптических объектов.</p>
 
   </div>
@@ -254,7 +295,7 @@
         <div class=" col col-md-2">
           <img src="src/img/social_1.png" alt="">
           <img src="src/img/social_2.png" alt="">
-          <img src="src/img/social_3.png" alt="">
+          <img src="src/img/vk.png" alt="">
         </div>
         <div class="col-6">
           <ul class="nav">
