@@ -10,6 +10,10 @@ body{
     font-family: BloggerSans;
 }
 
+section.prices {
+  margin-bottom: 100px;
+}
+
 .prices h2 {
   text-align: center;
   font-weight: bold;
@@ -30,10 +34,15 @@ p.description {
 
 .price_header {
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .price_header p{
   margin-left: 100px;
+}
+
+.web-terms {
+  padding-left: 5px;
 }
 
 .price_row {
@@ -141,4 +150,6 @@ p.description {
   border-radius: 0;
 }
 
-
+.prices_social img {
+  margin: 1px;
+}
